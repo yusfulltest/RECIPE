@@ -1,0 +1,138 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.body-wrap{
+    width: 100vw;
+overflow-x: hidden;
+}
+
+.text-body{
+    width: 90%;
+
+}
+
+.top-text{
+    font-family: "Young Serif", seri;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.para-size{
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    color: hsl(30, 10%, 34%);
+}
+
+.prepare-wrap{
+    background: hsl(330, 100%, 98%);
+    width: 85vw;
+    border-radius: 15px;
+}
+
+.preparation{
+    
+    color:hsl(332, 51%, 32%);
+    font-family: "Outfit", sans-serif; 
+    font-weight: 700;
+}
+
+.ul-size{
+ 
+   
+    
+    width: 80%;
+}
+
+.big-text{
+    font-family: "Young Serif", seri;
+    font-size: 22px;
+    color:  hsl(14, 45%, 36%);
+}
+
+.sub-text{
+    color:  hsl(14, 45%, 36%) !important;
+   
+}
+
+.ingrediants-wrap{
+    
+    width: 85vw;
+}
+
+.instructions{
+    width: 85vw;
+}
+
+.text-body-2{
+    width: 79vw;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media(min-width:1440px)
+{
+    body{
+        display: flex;
+        justify-content: center;
+        padding-top: 10vh;
+        padding-bottom:10vh ;
+        /* flex-direction: column; */
+       
+        /* padding-top: 50px; */
+   
+        background: hsl(30, 54%, 90%);
+    }
+
+.body-wrap{
+    width: 50vw;
+   
+    padding: 10px;
+    padding-top: 30px;
+    border-radius: 20px;
+    background:hsl(0, 0%, 100%) ;
+}
+
+.omelette-image-wrap{
+    
+    display: flex;
+    justify-content: center;
+  
+
+
+    
+}
+
+.omelette-image{
+    width: 90%;
+    border-radius: 10px;
+}
+
+.omelette{
+width: 95%;
+}
+
+
+
+.prepare-wrap{
+    width: 95%;
+}
+
+
+.instructions{
+    width: 98%;
+}
+
+.table{
+    margin-right: 20px;
+}
+
+.close-spcae{
+    padding-right: 150px !important;
+}
+
+}
