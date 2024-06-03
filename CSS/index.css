@@ -1,18 +1,43 @@
 body{
-    padding: 0px;
-    margin: 0px;
-    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background:hsl(30, 54%, 90%) ;
+    
+   
+    
+}
+
+section{
+   /* width: 380px; */
+   width: 100vw;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
     overflow-x: hidden;
+   
+   
 }
 
-.body-wrap{
+.insidesection{
+    width: 83.10vw;
+    /* width: 380px;
+    padding: 32px; */
+  
+ background: white;
+}
+
+.omelette-image-wrap{
+    
+    
+
+}
+
+.omelette-image{
+   
+    /* height: 200px; */
     width: 100vw;
-overflow-x: hidden;
-}
-
-.text-body{
-    width: 90%;
-
 }
 
 .top-text{
@@ -29,8 +54,8 @@ overflow-x: hidden;
 
 .prepare-wrap{
     background: hsl(330, 100%, 98%);
-    width: 85vw;
     border-radius: 15px;
+    overflow-x: hidden;
 }
 
 .preparation{
@@ -38,14 +63,13 @@ overflow-x: hidden;
     color:hsl(332, 51%, 32%);
     font-family: "Outfit", sans-serif; 
     font-weight: 700;
+    font-size: 16px;
 }
 
-.ul-size{
- 
-   
-    
-    width: 80%;
+ol{
+    padding-left: 25px;
 }
+
 
 .big-text{
     font-family: "Young Serif", seri;
@@ -53,86 +77,79 @@ overflow-x: hidden;
     color:  hsl(14, 45%, 36%);
 }
 
+
+
 .sub-text{
     color:  hsl(14, 45%, 36%) !important;
    
 }
 
-.ingrediants-wrap{
+
+
+table{
+    width: 100%;
     
-    width: 85vw;
+    
 }
 
-.instructions{
-    width: 85vw;
+td{
+    padding: 10px;
 }
 
-.text-body-2{
-    width: 79vw;
+
+
+td.sub-text{
+    padding-right: 50px;
+  
+   
+
 }
+
+
+
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
-@media(min-width:1440px)
-{
-    body{
-        display: flex;
-        justify-content: center;
-        padding-top: 10vh;
-        padding-bottom:10vh ;
-        /* flex-direction: column; */
-       
-        /* padding-top: 50px; */
-   
-        background: hsl(30, 54%, 90%);
-    }
 
-.body-wrap{
-    width: 50vw;
-   
-    padding: 10px;
-    padding-top: 30px;
+
+
+@media(min-width:1000px){
+body{
+    padding: 5vw;
+}
+main{
+    /* width: 50vw; */
+    /* display: flex;
+    justify-content: center; */
     border-radius: 20px;
-    background:hsl(0, 0%, 100%) ;
+    
+}
+
+section{
+    width: 50vw;
+    
+}
+
+.insidesection{
+    width: 90%;
 }
 
 .omelette-image-wrap{
-    
     display: flex;
     justify-content: center;
-  
-
-
-    
+    width: 90%;
+    padding-top: 30px;
+   
 }
+    
 
 .omelette-image{
-    width: 90%;
+    width: 100%;
+    
     border-radius: 10px;
+    
+   
 }
-
-.omelette{
-width: 95%;
-}
-
-
-
-.prepare-wrap{
-    width: 95%;
-}
-
-
-.instructions{
-    width: 98%;
-}
-
-.table{
-    margin-right: 20px;
-}
-
-.close-spcae{
-    padding-right: 150px !important;
-}
-
+ 
 }
